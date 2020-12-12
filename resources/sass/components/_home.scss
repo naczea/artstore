@@ -1,0 +1,43 @@
+.Home_container{
+    .header__nav{
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(228, 124, 124);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        .nav__logo{
+            color: royalblue;
+            font-size: 20px;
+        }
+        .nav__btn{
+            width: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            .btnnav{
+                background-color: khaki!important;
+            }
+            .btnnav:hover{
+                background-color: rgb(180, 171, 86)!important;
+            }
+        }
+    }
+    .carousel-fade{
+        background-color: lawngreen;
+        width: 100!important;
+        height: 90vh!important;   
+    }
+    #imgpepa{
+        width: 100%;
+        height: 90vh!important;
+    }
+    .gallery{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(182, 57, 105);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
