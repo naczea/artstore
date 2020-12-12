@@ -3,37 +3,8 @@
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-
-## COMANDOS
-
-
-
-composer create-project --prefer-dist laravel/laravel crudapp
-php artisan serve
-composer require laravel/ui 
-php artisan ui react
-npm install
-npm run watch
-npm install react-router-dom --save
-php artisan make:migration create_artuser_table
-php artisan make:model Artuser
-php artisan migrate
-php artisan make:controller ArtuserController --resource
-php artisan make:resource Artuser //una capa de transformación que se encuentre entre sus modelos Eloquent y las respuestas JSON
-
-{
-    "usuaId": 1, 
-    "usuaPassword": "12345678", 
-    "usuaNombre": "Nicolas",
-    "usuaApellido": "Correa", 
-    "usuaCorreo": "nico@gmail.com", 
-    "usuaTelefono1": "12345", 
-    "usuaTelefono2": "12345", 
-    "usuaStatus": true
-}
 
 <Link to="/register" className="btn btn-primary">Registrarse</Link>
 
@@ -84,4 +55,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## PROJECT COMANDS
+
+composer create-project --prefer-dist laravel/laravel crudapp
+php artisan serve
+composer require laravel/ui 
+php artisan ui react
+npm install
+npm run watch
+npm install react-router-dom --save
+php artisan make:migration create_artuser_table
+php artisan make:model Artuser
+php artisan migrate
+php artisan make:controller ArtuserController --resource
+php artisan make:resource Artuser //una capa de transformación que se encuentre entre sus modelos Eloquent y las respuestas JSON
 
